@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mojo Hammer</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#050505;
+color:white;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+img{
+width:100%;
+display:block;
+}
+
+.hero{
+height:100vh;
+position:relative;
+overflow:hidden;
+}
+
+.hero img{
+width:100%;
+height:100%;
+object-fit:cover;
+filter:brightness(70%);
+}
+
+.hero-text{
+position:absolute;
+left:8%;
+bottom:10%;
+}
+
+.hero-text h1{
+font-size:90px;
+font-weight:900;
+}
+
+.hero-text p{
+margin-top:20px;
+font-size:20px;
+color:#aaa;
+}
+
+.info{
+padding:120px 10%;
+}
+
+.info-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:60px;
+}
+
+.info h3{
+font-size:14px;
+color:#777;
+margin-bottom:15px;
+}
+
+.info p{
+margin-bottom:8px;
+}
+
+.section{
+padding:0 8% 120px;
+}
+
+.section h2{
+font-size:40px;
+margin-bottom:40px;
+}
+
+.main-image{
+border-radius:12px;
+overflow:hidden;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+}
+
+.gallery img{
+border-radius:12px;
+}
+
+.footer{
+padding:150px 0;
+text-align:center;
+}
+
+.footer a{
+color:white;
+text-decoration:none;
+border:1px solid #333;
+padding:15px 40px;
+transition:.3s;
+}
+
+.footer a:hover{
+background:white;
+color:black;
+}
+
+@media(max-width:900px){
+
+.hero-text h1{
+font-size:60px;
+}
+
+.info-grid{
+grid-template-columns:1fr;
+}
+
+.gallery{
+grid-template-columns:1fr;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="hero">
+
+<img src="../images/mojo/01.png">
+
+<div class="hero-text">
+<h1>MOJO<br>HAMMER</h1>
+<p>Stylized Weapon</p>
+</div>
+
+</section>
+
+<section class="info">
+
+<div class="info-grid">
+
+<div>
+<h3>SOFTWARE</h3>
+<p>ZBrush</p>
+<p>Substance Painter</p>
+<p>Marmoset Toolbag</p>
+</div>
+
+<div>
+<h3>CATEGORY</h3>
+<p>Stylized Weapon</p>
+<p>Game Asset</p>
+</div>
+
+<div>
+<h3>ARTIST</h3>
+<p>Li Jiajian</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Final Presentation</h2>
+
+<div class="main-image">
+<img src="../images/mojo/01.png">
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Gallery</h2>
+
+<div class="gallery">
+
+<img src="../images/mojo/02.png">
+
+<img src="../images/mojo/03.png">
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Detail Shot</h2>
+
+<div class="main-image">
+<img src="../images/mojo/03.png">
+</div>
+
+</section>
+
+<section class="footer">
+
+<a href="../index.html">
+Back to Portfolio
+</a>
+
+</section>
+
+</body>
+</html>
