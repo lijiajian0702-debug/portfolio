@@ -55,14 +55,27 @@ z-index:2;
 .subtitle{
 font-size:18px;
 color:#aaaaaa;
+letter-spacing:3px;
 margin-bottom:20px;
-letter-spacing:2px;
 }
 
 .hero h1{
-font-size:140px;
-line-height:0.9;
+font-size:120px;
 font-weight:900;
+line-height:1;
+}
+
+.english-name{
+font-size:28px;
+color:#cccccc;
+letter-spacing:8px;
+margin-top:15px;
+}
+
+.job-title{
+margin-top:30px;
+font-size:20px;
+color:#888;
 }
 
 .works{
@@ -90,6 +103,11 @@ position:relative;
 overflow:hidden;
 border-radius:14px;
 background:#111;
+transition:.3s;
+}
+
+.work-card:hover{
+transform:translateY(-5px);
 }
 
 .work-card img{
@@ -110,11 +128,19 @@ bottom:30px;
 
 .card-info h2{
 font-size:28px;
-margin-bottom:10px;
+margin-bottom:8px;
 }
 
 .card-info p{
 color:#aaa;
+letter-spacing:2px;
+}
+
+.about-content{
+max-width:900px;
+color:#aaa;
+line-height:2;
+font-size:18px;
 }
 
 footer{
@@ -130,6 +156,10 @@ color:#555;
 
 .hero h1{
 font-size:70px;
+}
+
+.english-name{
+font-size:18px;
 }
 
 .work-grid{
