@@ -226,6 +226,49 @@ STYLIZED ROCK STUDY
 
 </section>
 
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.min.js"></script>
+
+<script>
+
+const gallery = document.querySelector('.gallery');
+
+if(gallery){
+
+new Viewer(gallery,{
+toolbar:true,
+navbar:false,
+title:false,
+movable:true,
+zoomable:true,
+rotatable:false,
+scalable:true,
+transition:true
+});
+
+}
+
+const mainImage = document.querySelector('.main-image');
+
+if(mainImage){
+
+new Viewer(mainImage,{
+toolbar:true,
+navbar:false,
+title:false,
+movable:true,
+zoomable:true,
+rotatable:false,
+scalable:true,
+transition:true
+});
+
+}
+
+</script>
+
 </body>
 
 </html>
